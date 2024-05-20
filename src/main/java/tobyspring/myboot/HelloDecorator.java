@@ -9,7 +9,7 @@ public class HelloDecorator implements HelloService {
 
     private final HelloService helloService;
 
-    public HelloDecorator(HelloService helloService){
+    public HelloDecorator(HelloService helloService) {
         this.helloService = helloService;
     }
 
