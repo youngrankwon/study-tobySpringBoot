@@ -1,6 +1,7 @@
 package tobyspring.myboot;
 
 import org.springframework.boot.SpringApplication;
+import tobyspring.config.MySpringBootApplication;
 
 @MySpringBootApplication
 public class MybootApplication {
