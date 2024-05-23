@@ -9,12 +9,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.annotation.Transactional;
-import tobyspring.config.MySpringBootApplication;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes= MySpringBootApplication.class)
+@ContextConfiguration(classes= MybootApplication.class)
 @TestPropertySource("classpath:/application.properties")
 @Transactional
 public @interface HellobootTest {
