@@ -2,10 +2,10 @@ package tobyspring.myboot;
 
 import javax.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.jdbc.core.JdbcTemplate;
-import tobyspring.config.MySpringBootApplication;
 
-@MySpringBootApplication
+@SpringBootApplication
 public class MybootApplication {
 
     private final JdbcTemplate jdbcTemplate;
